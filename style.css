@@ -1,5 +1,11 @@
 body{
-    background-color: black;
+    background-color: black
+}
+
+#profile img{
+    width: 112px;
+    margin: 24px;
+    border-radius: 50px;
 }
 
 #profile {
@@ -11,18 +17,30 @@ body{
     font-weight: 500;
     color: white;
     line-height: 24px;
+    font-size: 20px;
+    
 }
 
 .buttom {
     text-align: center;
     background-color: white;
     margin-top: 10px;
-    padding: 10px;
+    padding: 24px;
     border-radius: 10px;
+    margin-left: 30px;
+    margin-right: 30px;
     /* text-decoration: none; */
+    font-size: 18px;
+    background: rgba(255, 255, 255, 0.3);
 }
 
 .buttom a {
     text-decoration: none;
-    color: black;
+    color: white
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
