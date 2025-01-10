@@ -90,7 +90,7 @@ ul li a {
   padding: 16px 24px;
 
   background: rgba(255, 255, 255, 0.1);
-  border: 1px solid rgba(255, 255, 255, 0.5);
+  border: 1.5px solid rgba(255, 255, 255, 0.5);
   border-radius: 8px;
 
   backdrop-filter: blur(4px);
@@ -99,5 +99,12 @@ ul li a {
 
   text-decoration: none;
   font-weight: 500;
+
+  transition: all 0.5s;
 }
 
+ul li a:hover{
+    background: rgba(255, 255, 255, 0.05);
+  border: 1.5px solid white;
+  color: #dcdcdc !important;
+}
